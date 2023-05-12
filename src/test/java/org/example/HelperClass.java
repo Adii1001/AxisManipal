@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import java.net.URL;
-
+ec
 public class HelperClass {
     protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
     public static String remote_url = "http://localhost:4444";
